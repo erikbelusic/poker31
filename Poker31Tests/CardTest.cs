@@ -8,13 +8,13 @@ namespace Poker31Tests
     public class CardTest
     {
         [Test]
-        public void InitializeCardWithInvalidRank()
+        public void Should_Throw_Exception_When_Initialized_With_Invalid_Rank()
         {
             Assert.Throws<InvalidEnumArgumentException>(() => new Card((Card.Rank) 1, Card.Suit.Diamonds));
         }
 
         [Test]
-        public void InitializeCardWithInvalidSuit()
+        public void Should_Throw_Exception_When_Initialized_With_Invalid_Suit()
         {
             Assert.Throws<InvalidEnumArgumentException>(() => new Card(Card.Rank.Ace, (Card.Suit) 7));
         }
