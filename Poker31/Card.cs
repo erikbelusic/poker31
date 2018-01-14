@@ -30,8 +30,8 @@ namespace Poker31
             Ace = 14
         }
         
-        private Rank _rank;
-        private Suit _suit;
+        private readonly Rank _rank;
+        private readonly Suit _suit;
         
         public Card(Rank rank, Suit suit)
         {

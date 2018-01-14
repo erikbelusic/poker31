@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace Poker31
+﻿namespace Poker31
 { 
     public class Player
     {
