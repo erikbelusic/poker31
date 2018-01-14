@@ -15,10 +15,5 @@ namespace Poker31
         {
             return _cards;
         }
-
-        public int GetScore()
-        {
-            return 1;
-        }
     }
 }
